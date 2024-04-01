@@ -16,9 +16,9 @@ if (!fs.existsSync(filesDirectory)) {
 app.get("/", (req, res) => {
     res.send(`
     <h3>To Create File</h3>
-    <button onclick="window.open('https://nodejs-filesystem-jdpe.onrender.com/createFile', '_blank')">Create File</button>
+    <button onclick="window.open('https://filesystem-xr1r.onrender.com/createFile', '_blank')">Create File</button>
     <h3>To Retrieve Files</h3>
-    <button onclick="window.open('https://nodejs-filesystem-jdpe.onrender.com/retrieveFiles', '_blank')">Retrieve Files</button>
+    <button onclick="window.open('https://filesystem-xr1r.onrender.com/retrieveFiles', '_blank')">Retrieve Files</button>
     `)
 })
 
